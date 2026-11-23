@@ -1,0 +1,38 @@
+#login_form {
+    background: #ddd;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
+}
+
+#login_form input {
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+#login_form input:focus {
+    background: #f7f3cf;
+}
+
+#login_form button {
+    background: #EDD800;
+    font-weight: bold;
+    border: 1px solid #333;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+#login_form button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 480px){
+    #login_form button {
+        margin-top: 15px;
+    }
+}

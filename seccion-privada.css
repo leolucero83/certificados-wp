@@ -1,0 +1,65 @@
+.filtroCertificados {
+    margin-bottom: 30px;;
+}
+
+.filtroCertificados label {
+    font-style: italic;
+}
+
+.filtroCertificados select {
+    padding: 4px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+.submitBoton {
+    background: #f7f3cf;
+    font-weight: bold;
+    border: 1px solid #333;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.submitBoton:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.listadoCertificados {
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+
+.listadoCertificados thead {
+    background: #ddd;
+}
+.listadoCertificados th {
+    text-transform: uppercase;
+}
+.listadoCertificados th, .listadoCertificados td {
+    text-align: center;
+    font-size: 14px;
+}
+
+.listadoCertificados tbody tr:hover td {
+    background: #f0f0f0;
+}
+
+.listadoCertificados tbody tr:hover td.amarillo,
+.listadoCertificados tbody tr:hover td.verde,
+.listadoCertificados tbody tr:hover td.rojo {
+    filter: brightness(0.9);
+}
+
+.listadoCertificados td.amarillo {
+    background: #fff494 !important;
+}
+
+.listadoCertificados td.rojo {
+    background: #f7c7bf !important;
+}
+
+.listadoCertificados td.verde {
+    background: #caf7bf !important;
+}
