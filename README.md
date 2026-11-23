@@ -28,11 +28,15 @@ El plugin **Certificados** crea un área exclusiva para clientes donde pueden co
 - Mensaje cuando el usuario no tiene certificados disponibles.
 - Oculta la barra de administración de WordPress para usuarios que no son administradores.
 
+![Sección Privada](seccion-privada.jpg)
+
 ### 2. Login y logout AJAX
 - Shortcode `[ajax_login_form]`: formulario de inicio de sesión con envío AJAX (sin recargar la página).
 - Mensajes de error mostrados directamente en el formulario.
 - Redirección automática a la sección privada tras un login exitoso.
 - Shortcode `[logout_link]`: muestra el nombre del usuario logueado y un enlace para cerrar sesión.
+
+![Formulario de Acceso](form-accesos.png)
 
 ### 3. Gestión de certificados desde el admin
 - Tipo de publicación personalizado (CPT) llamado **Certificados** con icono de premio (`dashicons-awards`).
